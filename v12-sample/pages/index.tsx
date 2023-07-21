@@ -21,7 +21,7 @@ export default function Home() {
         });
     };
     getJson();
-  })
+  }, [])
 
   // インクリメント
   const increment = () => {
